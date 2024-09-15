@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #665959;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+td {
+    vertical-align: text-top;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFD700;
+}
+
+div {
+    color: #FFFFFF;
+    height: 100%;
+    padding: 20px 10px 20px 40px;
+    margin: 10px;
+    border: 1px solid #FFD700;
+    background-color: #646464;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #FFD700;
+}
+
+/* Estilos para el menú */
+ul {
+    list-style: none; /* Estilo de las listas */
+}
+
+ul li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipo de letra */
+    font-size: 22px; /* Tamaño de letra */
+    height: 60px; /* Altura */
+}
+
+ul li a {
+    height: 60px; /* Altura */
+    background-color: #333; /* Color de fondo */
+    display: block;
+    border-left: 10px solid rgb(8, 96, 179);
+    border-right: 5px solid rgb(144, 253, 111);
+    padding-left: 15px; /* Separación izquierda del texto */
+    text-decoration: none; /* Eliminar subrayado */
+    color: #bfe1f1; /* Color de texto */
+}
+
+ul li a:hover {
+    margin-left: 10px; /* Separación de lado izquierdo al hacer hover */
+    color: #b9b7b7; /* Color de letra al hacer hover */
+    background-color: #0b1741; /* Color de fondo al hacer hover */
+    box-shadow: 10px 10px 20px #000; /* Sombra */
+    transform: rotate(4deg); /* Movimiento de rotación */
+    -moz-transform: rotate(4deg); /* Soporte para Firefox */
+    -webkit-transform: rotate(4deg); /* Soporte para Safari y Chrome */
+}
+
+td {
+    vertical-align: top;
+}
